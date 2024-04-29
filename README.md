@@ -14,7 +14,7 @@ Duomenų rinkinys: Duomenų rinkinys apima tokius namų atributus kaip plotas kv
 Taip pat yra pateikiamos realios namų pardavimo kainos.
 Darbo etapai:
 
-**** Duomenų surinkimas:****
+****Duomenų surinkimas:****
 
 Įkelti duomenis iš failo ar surinkti iš interneto ir  naudojant pandas biblioteką.
 Atlikti pirminę duomenų analizę, nustatyti trūkstamus duomenis, pašalinti arba užpildyti juos.
@@ -25,7 +25,7 @@ Atliktas duomenų valymas, įskaitant trūkstamų duomenų tvarkymą ir kategori
 kintamųjų kodavimą.
 Normalizuoti ir standartizuoti numeriniai duomenis.
 
-****Modelio kūrimas: ****
+****Modelio kūrimas:****
 
 Pritaikyta keletą skirtingų regresijos modelių: tiesinė regresija, miškų atsitiktinumas, 
 ir palyginti jų rezultatai.
