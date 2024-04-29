@@ -16,28 +16,30 @@ Darbo etapai:
 
 **** Duomenų surinkimas:****
 
-    Įkelti duomenis iš failo ar surinkti iš interneto ir  naudojant pandas biblioteką.
-    Atlikti pirminę duomenų analizę, nustatyti trūkstamus duomenis, pašalinti arba užpildyti juos.
+Įkelti duomenis iš failo ar surinkti iš interneto ir  naudojant pandas biblioteką.
+Atlikti pirminę duomenų analizę, nustatyti trūkstamus duomenis, pašalinti arba užpildyti juos.
 
 ****Duomenų apdorojimas:****
 
-    Atliktas duomenų valymas, įskaitant trūkstamų duomenų tvarkymą ir kategorinių kintamųjų kodavimą.
-    Normalizuoti ir standartizuoti numeriniai duomenis.
+Atliktas duomenų valymas, įskaitant trūkstamų duomenų tvarkymą ir kategorinių 
+kintamųjų kodavimą.
+Normalizuoti ir standartizuoti numeriniai duomenis.
 
 ****Modelio kūrimas: ****
 
-    Pritaikyta keletą skirtingų regresijos modelių: tiesinė regresija, miškų atsitiktinumas, ir palyginti jų rezultatai.
-    Atliktas kryžminis patikrinimas, kad įvertinti modelių efektyvumą.
+Pritaikyta keletą skirtingų regresijos modelių: tiesinė regresija, miškų atsitiktinumas, 
+ir palyginti jų rezultatai.
+Atliktas kryžminis patikrinimas, kad įvertinti modelių efektyvumą.
 
 ****Modelio mokymas ir vertinimas:****
 
-    Modeliai mokyti naudojant mokymo duomenų rinkinį.
-    Įvertintas modelio tikslumas naudojant testavimo duomenų rinkinį.
+Modeliai mokyti naudojant mokymo duomenų rinkinį.
+Įvertintas modelio tikslumas naudojant testavimo duomenų rinkinį.
 
 ****Prognozių generavimas ir pateikimas:****
 
-    Naudojant geriausiai atlikusį modelį, prognozuotos namų kainos.
-    Rezultatus pateikti grafiškai ir raštu.
+Naudojant geriausiai atlikusį modelį, prognozuotos namų kainos.
+Rezultatus pateikti grafiškai ir raštu.
 
     
 **Technologijos:**
