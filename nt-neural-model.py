@@ -115,6 +115,7 @@ def neural_model(df):
     plt.show()
     return None
 
+
 def main():
     df = duomenu_parengimas_modeliui('nt_data_fin.csv')
     neural_model(df)
