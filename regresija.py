@@ -5,6 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 
+
 def duomenu_parengimas_modeliui(failas):
     # Selecting columns from the DataFrame
     df = pd.read_csv(failas)
