@@ -32,6 +32,7 @@ Normalizuoti ir standartizuoti numeriniai duomenis.
 Pritaikyta keletą skirtingų regresijos modelių: tiesinė regresija, miškų atsitiktinumas, 
 ir palyginti jų rezultatai.
 Atliktas kryžminis patikrinimas, kad įvertinti modelių efektyvumą.
+
 ![paveikslas](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/2993c30e-d8fc-4034-90e1-43b361d3f731)
 Gautos RMSE (Root Mean Squared Error) reikšmės rodo tiesinės regresijos ir atsitiktinių miško modelių veikimą pagal bandymo duomenis. Mažesnės RMSE vertės paprastai rodo geresnį našumą, nes jos rodo mažesnes numatytų ir faktinių verčių paklaidas.
 
