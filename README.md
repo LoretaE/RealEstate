@@ -47,9 +47,11 @@ Gautos RMSE (Root Mean Squared Error) reikšmės rodo tiesinės regresijos ir at
 
 Modeliai mokyti naudojant mokymo duomenų rinkinį.
 Įvertintas modelio tikslumas naudojant testavimo duomenų rinkinį.
+![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/c49bf5d7-4273-4211-8c34-6403c0f6ec10)
 
 
 ****Prognozių generavimas ir pateikimas:****
+![image-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/79de465e-b92e-4957-9495-beb2d42cd192)
 
 Naudojant geriausiai atlikusį modelį, prognozuotos namų kainos.
 Rezultatus pateikti grafiškai ir raštu.
