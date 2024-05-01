@@ -64,17 +64,13 @@ def main():
     print(f'Linear Regression r2 = {linear_reg_r2:.2f}')
     print(f'Random Forest r2 = {rf_r2:.2f}')
 
-    #  Train and evaluate models using cross-validation
-    linear_reg_scores = cross_val_score(linear_reg_model, X_train, y_train, cv=5, scoring='neg_mean_squared_error')
-    rf_scores = cross_val_score(rf_model, X_train, y_train, cv=5, scoring='neg_mean_squared_error')
+    #  Evaluate models using cross-validation
+    folds = KFold(n_splits=5, shuffle=True, random_state=101)
+    linear_reg_scores = cross_val_score(linear_reg_model, X_train, y_train, cv=folds, scoring='r2')
+    rf_scores = cross_val_score(rf_model, X_train, y_train, cv=folds, scoring='r2')
 
-    # Convert mean squared error scores to positive values
-    linear_reg_rmse_scores = (-linear_reg_scores) ** 0.5
-    rf_rmse_scores = (-rf_scores) ** 0.5
-
-    # Print the cross-validated RMSE scores
-    print("Linear Regression Cross-Validated RMSE Scores:", linear_reg_rmse_scores)
-    print("Random Forest Cross-Validated RMSE Scores:", rf_rmse_scores)
+    print("Linear Regression Cross-Validated r2 scores:", linear_reg_scores)
+    print("Random Forest Cross-Validated r2 scores:", rf_scores)
 
     # Test vs Predicted Prices Visualization
     plt.figure(figsize=(12, 6))
