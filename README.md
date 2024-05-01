@@ -33,18 +33,22 @@ Normalizuoti ir standartizuoti numeriniai duomenis.
 Pritaikyta keletą skirtingų regresijos modelių: tiesinė regresija, miškų atsitiktinumas, 
 ir palyginti jų rezultatai.
 Atliktas kryžminis patikrinimas, kad įvertinti modelių efektyvumą.
-![image_720](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/14ff7e87-c2b6-4d91-b822-57c92b912278)
 
+![image_720](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/14ff7e87-c2b6-4d91-b822-57c92b912278)
 
 
 ![image_720-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/9629d8cb-cf6f-48b5-95ee-33d7bc1a8e9d)
 
 
-Gautos RMSE (Root Mean Squared Error) reikšmės rodo tiesinės regresijos ir atsitiktinių miško modelių veikimą pagal bandymo duomenis. Mažesnės RMSE vertės paprastai rodo geresnį našumą, nes jos rodo mažesnes numatytų ir faktinių verčių paklaidas.
+Gautos RMSE (Root Mean Squared Error) reikšmės rodo tiesinės regresijos ir atsitiktinių miško modelių veikimą pagal bandymo duomenis. 
+Mažesnės RMSE vertės paprastai rodo geresnį našumą, nes jos rodo mažesnes numatytų ir faktinių verčių paklaidas.
 
 Linear Regression RMSE: 85199.83
+
 Random Forest Test RMSE: 72180.10
+
 Linear Regression r2 = 0.44
+
 Random Forest r2 = 0.60
  
 Šios vertės rodo, kad Random Forest modelis veikia geriau nei tiesinės regresijos modelis, numatant būsto kainas pagal nurodytas savybes. Atsitiktinio miško modelio RMSE yra mažesnis, o tai rodo, kad jis vidutiniškai pateikia tikslesnes prognozes, palyginti su tiesinės regresijos modeliu.
