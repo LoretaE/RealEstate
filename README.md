@@ -9,6 +9,8 @@
 Šis projektas yra skirtas namų kainų prognozavimui, remiantis įvairiomis jų savybėmis.
 Naudojant duomenų rinkinį, kuriame yra namų pardavimo duomenys, projektas apima duomenų analizę, modelio mokymą ir galutinių prognozių generavimą.
 
+**Technologijos**
+pandas, numpy, scikit-learn, matplotlib, plotly dash, tensorflow, seaborn, sklearn, BeautifulSoup, requests 
 
 Duomenų rinkinys: Duomenų rinkinys apima šias namų savybes: objekto tipas, dislokacijos vieta, namo plotas (kvadratiniais metrais), kambarių skaičius, aukštų skaičius, pastatymo metai ir žemės plotas (arais).
 Taip pat yra pateikiamos namų pardavimo kainos.
@@ -27,7 +29,7 @@ kintamųjų kodavimą.
 Standartizuoti skaitiniai duomenys.
 
 Siekiant eliminuoti kainų ektremumus (nepakankamą kiekį duomenų modelio apmokymui), analizuotos namų kainos histogramoje. 
-Pagal kainų histogramą modeliui bus imami duomenys su kaina iki 0,5 mln.(nuo 178 indekso, atmetant 5% duomenų)
+Pagal kainų histogramą modeliui bus imami duomenys su kaina iki 0,5 mln.(nuo 178 indekso, atmetant 5% duomenų).
 
 ![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/791fe7c0-6841-4598-b042-ffbda61528bc)
 ![image-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/c6d0f65f-9e4c-4350-9717-62fbe4bfc3bc)
@@ -38,6 +40,7 @@ Pagal kainų histogramą modeliui bus imami duomenys su kaina iki 0,5 mln.(nuo 1
 Pritaikyta keletą skirtingų regresijos modelių: tiesinė regresija, miškų atsitiktinumas. Taip pat neuroninių tinklų modelis.
 
 Atliktas kryžminis patikrinimas, kad įvertinti modelių efektyvumą.
+
 
 ![image_720](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/14ff7e87-c2b6-4d91-b822-57c92b912278)
 
@@ -61,16 +64,16 @@ Mažesnės RMSE vertės paprastai rodo geresnį našumą, nes jos rodo mažesnes
 
 Modeliai mokyti naudojant mokymo duomenų rinkinį.
 Įvertintas modelio tikslumas naudojant testavimo duomenų rinkinį.
-![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/c49bf5d7-4273-4211-8c34-6403c0f6ec10)
+
+![image-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/54515893-6fb0-4f7c-912a-98d8dd1f7fc1)
+
+![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/f00709ce-3f55-4181-b5f6-c777215f3aab)
 
 
-![image-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/79de465e-b92e-4957-9495-beb2d42cd192)
 
 Naudojant geriausiai atlikusį modelį, prognozuotos namų kainos.
-Rezultatus pateikti grafiškai ir raštu.
 
     
-**Technologijos:**
-    pandas, numpy, scikit-learn, matplotlib
+
 
 
