@@ -1,10 +1,10 @@
 **Darbo autoriai💻📈:** Loreta Eimontaitė, Valentina Verikė
 
 
-****Tema:****
+****Tema****
  NT kainų prognozavimo sistema
 
-****Aprašymas:****
+****Aprašymas****
 
 Šis projektas yra skirtas namų kainų prognozavimui, remiantis įvairiomis jų savybėmis.
 Naudojant duomenų rinkinį, kuriame yra namų pardavimo duomenys, projektas apima duomenų analizę, modelio mokymą ir galutinių prognozių generavimą.
@@ -15,12 +15,12 @@ Taip pat yra pateikiamos namų pardavimo kainos.
 
 Darbo etapai:
 
-****Duomenų surinkimas:****
+****Duomenų surinkimas****
 
 Duomenys įkelti iš interneto svetainės www.kampas.lt naudojant "Web scraping".
 Atlikta pirminė duomenų analizė, nustatyti, pašalinti ir užpildyti trūkstami duomenys.
 
-****Duomenų apdorojimas:****
+****Duomenų apdorojimas****
 
 Atliktas duomenų valymas, įskaitant trūkstamų duomenų tvarkymą ir kategorinių 
 kintamųjų kodavimą.
@@ -33,7 +33,7 @@ Pagal kainų histogramą modeliui bus imami duomenys su kaina iki 0,5 mln.(nuo 1
 ![image-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/c6d0f65f-9e4c-4350-9717-62fbe4bfc3bc)
 ![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/78b08792-23a2-49c3-8612-b039f9445e80)
 
-****Modelio kūrimas:****
+****Modelio kūrimas, mokymas ir vertinimas, prognozių generavimas:****
 
 Pritaikyta keletą skirtingų regresijos modelių: tiesinė regresija, miškų atsitiktinumas. Taip pat neuroninių tinklų modelis.
 
@@ -52,20 +52,18 @@ Linear Regression RMSE: 85199.83
 
 Random Forest Test RMSE: 72180.10
 
-Linear Regression r2 = 0.44
+Linear Regression r2 Score = 0.44
 
-Random Forest r2 = 0.60
+Random Forest r2 Score = 0.60
  
 Šios vertės rodo, kad Random Forest modelis veikia geriau nei tiesinės regresijos modelis, numatant būsto kainas pagal nurodytas savybes. Atsitiktinio miško modelio RMSE yra mažesnis, o tai rodo, kad jis vidutiniškai pateikia tikslesnes prognozes, palyginti su tiesinės regresijos modeliu.
 
-****Modelio mokymas ir vertinimas:****
 
 Modeliai mokyti naudojant mokymo duomenų rinkinį.
 Įvertintas modelio tikslumas naudojant testavimo duomenų rinkinį.
 ![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/c49bf5d7-4273-4211-8c34-6403c0f6ec10)
 
 
-****Prognozių generavimas ir pateikimas:****
 ![image-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/79de465e-b92e-4957-9495-beb2d42cd192)
 
 Naudojant geriausiai atlikusį modelį, prognozuotos namų kainos.
