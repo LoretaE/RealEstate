@@ -29,7 +29,7 @@ kintamųjų kodavimą.
 Standartizuoti skaitiniai duomenys.
 
 Siekiant eliminuoti kainų ektremumus (nepakankamą kiekį duomenų modelio apmokymui), analizuotos namų kainos histogramoje. 
-Pagal kainų histogramą modeliui bus imami duomenys su kaina iki 0,5 mln. (nuo 178 indekso, atmetant 5% duomenų).
+Pagal kainų histogramą modeliui imami duomenys, kurių kaina iki 0,5 mln.eurų (atmetant 5% duomenų).
 
 ![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/791fe7c0-6841-4598-b042-ffbda61528bc)
 ![image-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/c6d0f65f-9e4c-4350-9717-62fbe4bfc3bc)
