@@ -69,8 +69,9 @@ Modeliai mokyti naudojant mokymo duomenų rinkinį.
 
 ![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/f00709ce-3f55-4181-b5f6-c777215f3aab)
 
-MAE paklaida: 55619.26
-Explained variance score:  0.57
+ - MAE paklaida: 55619.26
+
+ - Explained variance score:  0.57
 
 Naudojant geriausiai atlikusį modelį, prognozuotos namų kainos.
 
