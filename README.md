@@ -37,19 +37,17 @@ Pagal kainų histogramą modeliui imami duomenys, kurių kaina iki 0,5 mln.eurų
 
 ****Modelio kūrimas, mokymas ir vertinimas, prognozių generavimas:****
 
-Pritaikyta keletą skirtingų regresijos modelių: tiesinė regresija, miškų atsitiktinumas. Taip pat neuroninių tinklų modelis.
+Pritaikyta keletą skirtingų regresijos modelių: tiesinė regresija, atsitiktinių miškų metodas. Taip pat neuroninių tinklų modelis.
 
+Modeliai mokyti naudojant mokymo duomenų rinkinį. Modelių tikslumas vertintas, naudojant testavimo duomenų rinkinį.
 Atliktas kryžminis patikrinimas, kad įvertinti modelių efektyvumą.
 
 
-![image_720](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/14ff7e87-c2b6-4d91-b822-57c92b912278)
+![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/163419704/dfbfc903-7e78-4d42-9aad-c971126ec746)
+![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/163419704/cf95830f-4e5a-476d-940d-08e586405f65)
 
 
-![image_720-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/9629d8cb-cf6f-48b5-95ee-33d7bc1a8e9d)
-
-
-Gautos RMSE (Root Mean Squared Error) reikšmės rodo tiesinės regresijos ir atsitiktinių miško modelių veikimą pagal bandymo duomenis. 
-Mažesnės RMSE vertės paprastai rodo geresnį našumą, nes jos rodo mažesnes numatytų ir faktinių verčių paklaidas.
+Gautos RMSE (Root Mean Squared Error) reikšmės rodo tiesinės regresijos ir atsitiktinių miškų modelių veikimo tikslumą, vertintą naudojant testavimo duomenis. Mažesnės RMSE vertės rodo geresnį našumą, nes jos rodo mažesnes numatytų ir faktinių verčių paklaidas. Koeficientas r2 parodo modelio gebėjimą nustatyti tinkamas vertes. Kuo r2 artimesnis 1, tuo modelis tikslesnis.
 
   - Linear Regression RMSE: 85199.83
 
@@ -59,22 +57,25 @@ Mažesnės RMSE vertės paprastai rodo geresnį našumą, nes jos rodo mažesnes
 
   - Random Forest r2 Score = 0.60
  
-Šios vertės rodo, kad Random Forest modelis veikia geriau nei tiesinės regresijos modelis, numatant būsto kainas pagal nurodytas savybes. Atsitiktinio miško modelio RMSE yra mažesnis, o tai rodo, kad jis vidutiniškai pateikia tikslesnes prognozes, palyginti su tiesinės regresijos modeliu.
+RMSE paklaidos ir r2 koeficiento vertės rodo, kad atsitiktinių miškų modelis pateikia tikslesnes prognozes numatant būsto kainas pagal nurodytas savybes, nei tiesinės regresijos modelis. 
 
 
-Modeliai mokyti naudojant mokymo duomenų rinkinį.
-Įvertintas modelio tikslumas naudojant testavimo duomenų rinkinį.
 
 ![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/163419704/39a6d5d0-2568-4b36-a951-b917140b0f16)
 ![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/163419704/a41b9caa-46d5-4076-b4c1-d239c9d2cc3d)
-
 
 
  - MAE paklaida: 55619.26
 
  - Explained variance score:  0.57
 
-Naudojant geriausiai atlikusį modelį, prognozuotos namų kainos.
+Neuroninių tinklų modelio koeficientas, rodantis modelio tikslumą, yra gana panašus į atsitiktinių miškų modelio koeficientą. 
+
+****Išvados****
+
+1. Prognozuojant namų kainas pagal aukščiau nurodytas savybes, vertėtų naudoti tiksliausią - atsitiktinių miškų (Random Forests) modelį.
+2. Atsitiktinių miškų (Random Forests) modelio tikslumas - 60 proc. Tikslumą ribojantys veiksniai: (1) modelio mokymui ir testavimui naudotas duomenų kiekis (3,4 tūkst. parduodamų namų duomenų), (2) kainai taip pat įtaką daro kitos savybės, kurios kuriant ir testuojant modelį nebuvo naudotos (nes tik apie 1/3 namų turėjo informaciją apie kitas savybes nuo kurių taip pat priklauso namo kaina).    
+
 
     
 
