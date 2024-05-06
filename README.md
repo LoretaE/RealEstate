@@ -65,9 +65,10 @@ Mažesnės RMSE vertės paprastai rodo geresnį našumą, nes jos rodo mažesnes
 Modeliai mokyti naudojant mokymo duomenų rinkinį.
 Įvertintas modelio tikslumas naudojant testavimo duomenų rinkinį.
 
-![image-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/54515893-6fb0-4f7c-912a-98d8dd1f7fc1)
+![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/163419704/39a6d5d0-2568-4b36-a951-b917140b0f16)
+![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/163419704/a41b9caa-46d5-4076-b4c1-d239c9d2cc3d)
 
-![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/f00709ce-3f55-4181-b5f6-c777215f3aab)
+
 
  - MAE paklaida: 55619.26
 
