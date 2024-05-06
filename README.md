@@ -48,13 +48,13 @@ Atliktas kryžminis patikrinimas, kad įvertinti modelių efektyvumą.
 Gautos RMSE (Root Mean Squared Error) reikšmės rodo tiesinės regresijos ir atsitiktinių miško modelių veikimą pagal bandymo duomenis. 
 Mažesnės RMSE vertės paprastai rodo geresnį našumą, nes jos rodo mažesnes numatytų ir faktinių verčių paklaidas.
 
-Linear Regression RMSE: 85199.83
+  - Linear Regression RMSE: 85199.83
 
-Random Forest Test RMSE: 72180.10
+  - Random Forest Test RMSE: 72180.10
 
-Linear Regression r2 Score = 0.44
+  - Linear Regression r2 Score = 0.44
 
-Random Forest r2 Score = 0.60
+  - Random Forest r2 Score = 0.60
  
 Šios vertės rodo, kad Random Forest modelis veikia geriau nei tiesinės regresijos modelis, numatant būsto kainas pagal nurodytas savybes. Atsitiktinio miško modelio RMSE yra mažesnis, o tai rodo, kad jis vidutiniškai pateikia tikslesnes prognozes, palyginti su tiesinės regresijos modeliu.
 
