@@ -74,7 +74,7 @@ Neuroninių tinklų modelio koeficientas, rodantis modelio tikslumą, yra gana p
 ****Išvados****
 
 1. Prognozuojant namų kainas pagal aukščiau nurodytas savybes, vertėtų naudoti tiksliausią - atsitiktinių miškų (Random Forests) modelį.
-2. Atsitiktinių miškų (Random Forests) modelio tikslumas - 60 proc. Tikslumą ribojantys veiksniai: (1) modelio mokymui ir testavimui naudotas duomenų kiekis (3,4 tūkst. parduodamų namų duomenų), (2) kainai taip pat įtaką daro kitos savybės, kurios kuriant ir testuojant modelį nebuvo naudotos (nes tik apie 1/3 namų turėjo informaciją apie kitas savybes nuo kurių taip pat priklauso namo kaina).    
+2. Atsitiktinių miškų (Random Forests) modelio tikslumas - 60 proc. Tikslumą ribojantys veiksniai: (1) modelio mokymui ir testavimui naudotas duomenų kiekis (3,4 tūkst. parduodamų namų duomenų), (2) kainai taip pat įtaką daro kitos savybės, kurios kuriant ir testuojant modelį nebuvo naudotos (nes tik apie 1/3 namų turėjo informaciją apie kitas savybes).    
 
 
     
