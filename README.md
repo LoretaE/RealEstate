@@ -34,6 +34,8 @@ Pagal kainų histogramą modeliui imami duomenys, kurių kaina iki 0,5 mln.eurų
 ![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/791fe7c0-6841-4598-b042-ffbda61528bc)
 ![image-1](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/c6d0f65f-9e4c-4350-9717-62fbe4bfc3bc)
 ![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/157985262/78b08792-23a2-49c3-8612-b039f9445e80)
+![image](https://github.com/ValentinaVerik/NT-kain-prognozavimo-sistema/assets/163419704/ce9e90b4-7861-44c0-8d90-03d55013e917)
+
 
 ****Modelio kūrimas, mokymas ir vertinimas, prognozių generavimas:****
 
